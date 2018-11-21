@@ -1,0 +1,30 @@
+{
+  "name": "learn-mern",
+  "version": "1.0.0",
+  "description": "Shopping List built with the MERN stack",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CoryJHarris/learn-mern.git"
+  },
+  "author": "Cory Harris",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CoryJHarris/learn-mern/issues"
+  },
+  "homepage": "https://github.com/CoryJHarris/learn-mern#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "concurrently": "^4.1.0",
+    "express": "^4.16.4",
+    "mongoose": "^5.3.13"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.6"
+  }
+}
